@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    color: #323743;
+    font-size: 50px;
+}
+h2 {
+    color: #323743;
+    font-size: 30px;
+}
+
+h3 {
+    color: #6c4d36;
+}
+
+p {
+    color: #323743;
+    font-size: 20px;
+}
+
+section {
+    padding-top: 5%;
+    padding-bottom: 5%;
+ padding-right: 30px;   
+ padding-left: 30px;   
+
+}
+
+#intro {
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+}
+
+.background-image {
+    background-image: url("background\ image\ eye.jpeg");
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    border-radius: 25px;
+    padding: 20px;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3; /* Set opacity to 0.3 (30%) for the pseudo-element */
+    z-index: -1; /* Place it behind the content */
+}
+
+
+button {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+    border-style: solid;
+    background-image: none;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-align: center;
+    cursor:auto;
+    height: auto;
+    min-height: auto;
+    border-radius: 7px;
+    border-width: 0px;
+    padding: 18.5px 30px;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: transparent;
+    background-color: #c4a388;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
