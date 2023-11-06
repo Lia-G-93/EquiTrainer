@@ -30,6 +30,33 @@ section {
 
 }
 
+
+.features-container {
+    display: flex;
+    flex-wrap: wrap; /* Wrap the elements to the next row if necessary */
+    justify-content: space-between; /* Adjust this to control the horizontal spacing */
+    align-items: center; /* Align items vertically in the center */
+}
+
+.features {
+    background-image: none;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-align: center;
+    border-radius: 7px;
+    border: 2px solid #c4a388;
+    padding: 18.5px 30px;
+    font-size: 12px;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    margin: 10px; /* Combine margin-top and margin-bottom into a single margin property */
+    flex: 1; /* This makes each feature take up equal space within the container */
+}
+
+
+
 #intro {
     position: relative;
     background-size: cover;
