@@ -25,10 +25,34 @@ p {
 section {
     padding-top: 5%;
     padding-bottom: 5%;
- padding-right: 30px;   
- padding-left: 30px;   
+    padding-right: 30px;   
+    padding-left: 30px;   
 
 }
+.topnav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.topnav a {
+    float: left;
+    color: #323743;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 15px;
+}
+.topnav a:hover {
+    background-color: #6c4d36;
+    color: #fff;
+}
+.topnav a.active {
+    background-color: #6c4d36;
+    color: #fff;
+  }
 
 
 .features-container {
@@ -43,7 +67,7 @@ section {
     font-weight: 700;
     letter-spacing: .04em;
     text-align: center;
-    border-radius: 7px;
+    border-radius: 10px;
     border: 2px solid #c4a388;
     padding: 18.5px 30px;
     font-size: 12px;
@@ -70,7 +94,6 @@ section {
     position: absolute;
     border-radius: 25px;
     padding: 20px;
-
     top: 0;
     left: 0;
     right: 0;
@@ -100,7 +123,7 @@ button {
     padding-top: 10px;
     padding-bottom: 10px;
     border-color: transparent;
-    background-color: #c4a388;
+    background-color: #6c4d36;
     color: #fff;
     margin-top: 10px;
     margin-bottom: 10px;
