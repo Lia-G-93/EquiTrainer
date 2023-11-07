@@ -27,10 +27,9 @@ section {
     padding-bottom: 5%;
     padding-right: 30px;   
     padding-left: 30px;   
-
 }
 .topnav {
-    position: absolute;
+    position: relative; /* position is not allowing the menu to be clickable - WHYYYYY? */
     top: 0;
     left: 0;
     right: 0;
@@ -46,13 +45,12 @@ section {
     border-radius: 15px;
 }
 .topnav a:hover {
-    background-color: #6c4d36;
     color: #fff;
 }
 .topnav a.active {
-    background-color: #6c4d36;
+    border-color: #323743;    
     color: #fff;
-  }
+}
 
 
 .features-container {
