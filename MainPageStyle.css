@@ -29,6 +29,35 @@ section {
     padding-left: 30px;   
 }
 
+
+
+.how-it-works {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .step {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+  }
+  
+  .step h2 {
+    font-size: 1.5em;
+  }
+  
+  .step p {
+    margin-top: 10px;
+  }
+  
+
+
+
+
 .topnav {
     top: 0;
     left: 0;
