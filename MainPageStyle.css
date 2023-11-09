@@ -43,6 +43,11 @@ section {
     border-radius: 15px;
 }
 
+.topnav a :hover{
+    cursor:pointer
+
+}
+
 
 .features-container {
     display: flex;
@@ -66,6 +71,10 @@ section {
     color: #fff;
     margin: 10px; /* Combine margin-top and margin-bottom into a single margin property */
     flex: 1; /* This makes each feature take up equal space within the container */
+}
+
+.featureTitle {
+    font-size: 20px;
 }
 
 #intro {
